@@ -1,0 +1,100 @@
+.parallax-play {
+  overflow: hidden;
+  position: relative;
+  z-index: 1;
+  background-attachment: fixed;
+  background-position: 50% 50%;
+  background-size: cover;
+  padding: 0 0 100%;
+
+  .description {
+    position: relative;
+    margin: 40px 100px 0;
+    float: left;
+    width: 360px;
+    background: fade(@gray, 95%);
+    font-family: @body;
+    color: white;
+    box-shadow: 8px 8px 16px rgba(0,0,0,.3);
+
+    @media @mobile {
+      margin: 40px 20px 0;
+      width: auto;
+    }
+
+    h3.rank {
+      background: fade(@primary-color, 75%);
+      margin: 0 0 1em;
+      padding: 5px 20px;
+      font-family: @hed;
+      font-weight: normal;
+    }
+
+    h1 {
+      font-size: 20px;
+      font-weight: 600;
+      margin: 0 0 1em;
+      padding: 0 20px;
+      color: white;
+      font-family: @body;
+      font-size: 16px;
+    }
+
+    .copy {
+      padding: 0 20px;
+      letter-spacing: .3px;
+    }
+
+    h2 {
+      font-size: 14px;
+      font-family: @body;
+      font-weight: 600;
+      margin: 0 0 8px 0;
+      text-transform: uppercase;
+
+      &.score {
+        margin: 1em 0 4px 0;
+        color: @primary-color;
+      }
+    }
+
+    p {
+      margin-top: 0;
+      font-size: 14px;
+    }
+
+    blockquote {
+      margin: 0;
+      text-style: normal;
+      display: inline;
+      font-size: 14px;
+    }
+
+    cite {
+      display: inline-block;
+      font-style: normal;
+      text-transform: uppercase;
+      font-size: 12px;
+      color: @link-color;
+    }
+
+    .read-more {
+      display: block;
+      font-size: 12px;
+      text-transform: uppercase;
+      margin-top: 10px;
+    }
+
+    .credit {
+      text-transform: uppercase;
+      font-size: 11px;
+      color: @link-color;
+      text-align: right;
+      padding: 10px 20px 10px 20px;
+    }
+
+    &.right {
+      float: right;
+    }
+  }
+}

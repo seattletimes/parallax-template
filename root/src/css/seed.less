@@ -1,0 +1,92 @@
+//Variables to change
+@mobile: ~"(max-width: 720px)";
+@landscape: ~"(orientation: landscape)";
+@portrait: ~"(orientation: portrait)";
+
+@hed: Oswald, Helvetica, Arial, sans-serif;
+@body: 'Open Sans', sans-serif;
+@sans-serif: Helvetica, Arial, sans-serif;
+@serif: Georgia, Times, serif;
+
+@primary-color: #1DD83C;
+@secondary-color: #00163F;
+@link-color: #AAA;
+@st-blue: #09334B;
+@gray: #333;
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.transform(...) {
+  -webkit-transform: @arguments;
+  -moz-transform: @arguments;
+  -ms-transform: @arguments;
+  transform: @arguments;
+}
+
+body {
+  max-width: 1600px;
+  background: #222;
+  margin: 0 auto;
+  padding: 0;
+  font-family: @sans-serif;
+  line-height: 1.5;
+}
+
+a {
+  color: @link-color;
+  text-decoration: none;
+  border: none;
+
+  img {
+    border: none;
+  }
+
+  &:hover {
+    color: @primary-color;
+  }
+}
+
+.share, .share-bottom {
+  margin: 0 auto 10px auto;
+  display: inline-block !important;
+
+  &.sharer-0 {
+
+    label.entypo-export {
+      border-radius: 0;
+      background: #444;
+      color: @link-color;
+
+      &:hover {
+        color: @primary-color;
+      }
+    }
+  }
+}
+
+.share-bottom {
+  float: right;
+
+  &.sharer-0 {
+
+    label.entypo-export {
+    }
+  }
+}
+
+sup {
+  vertical-align: text-top;
+}
+
+@import "page";
+
+@import "scroll";
+
+@import "sections";
+
+@import "warning";

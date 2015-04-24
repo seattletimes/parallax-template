@@ -1,0 +1,39 @@
+aside.no-mobile-portrait {
+  @spacing: 40px;
+
+  display: none;
+  z-index: 999;
+  border-radius: 20px;
+  position: fixed;
+  background: black;
+  color: white;
+  padding: 40px 40px 10px;
+  top: @spacing;
+  left: @spacing;
+  right: @spacing;
+
+  @media @mobile and @portrait {
+    display: block;
+  }
+
+  .ok {
+    position: absolute;
+    top: 0px;
+    right: 10px;
+    display: block;
+    color: white;
+    font-size: 40px;
+    font-weight: normal;
+  }
+
+  .rotation {
+    display: block;
+    text-align: center;
+    font-size: 80px;
+    margin: 20px;
+  }
+
+  .hide-warning & {
+    display: none;
+  }
+}
