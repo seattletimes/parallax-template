@@ -14,6 +14,7 @@
   "url": "",
   "slug": "",
   "tags": [],
+  "image": "",
   "production": false,
   "sheets": ["{%= spreadsheet_id %}"]
 }
