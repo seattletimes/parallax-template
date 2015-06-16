@@ -11,9 +11,9 @@
   },
   "title": "",
   "description": "",
-  "url": "",
+  "url": "http://projects.seattletimes.com/{%= s3_path %}/",
   "slug": "",
-  "tags": [],
+  "tags": ["interactive", "parallax"],
   "image": "",
   "production": false,
   "sheets": ["{%= spreadsheet_id %}"]

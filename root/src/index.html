@@ -15,6 +15,9 @@
 
     <main class="scroll">
 
+      <div class="ad-spot">
+        <%= t.include("partials/_ad.html", { type: "banner" }) %>
+      </div>
       <header class="intro">
         <nav class="logo-bar">
           <a class="logo" href="http://seattletimes.com">
@@ -29,8 +32,9 @@
           <p>
             CHATTER GOES HERE.
 
+          <div class="social">
             <a class="share"></a>
-          </p>
+          </div>
 
           <p class="byline">
             <span class="byline-name">Reporting by REPORTER X</span>

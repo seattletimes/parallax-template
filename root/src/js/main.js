@@ -1,6 +1,12 @@
+require("./lib/ads");
+
 var Share = require("share");
 
-new Share(".share");
+new Share(".share", {
+  ui: {
+    flyout: "top center"
+  }
+});
 new Share(".share-bottom", {
   ui: {
     flyout: "top left"
