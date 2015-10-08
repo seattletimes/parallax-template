@@ -49,7 +49,7 @@ module.exports = function(grunt) {
             return bookDone();
           }
           //don't break on zero-length sheets
-          if (rows.length === 0) return pageDone();
+          if (rows.length === 0) return bookDone();
           //remove extraneous GApps detail
           rows.forEach(function(row) {
             delete row.updated;
@@ -79,9 +79,7 @@ module.exports = function(grunt) {
           bookDone();
         });
       });
-    }, function() {
-      return done();
-    });
+    } done);
 
   });
 
