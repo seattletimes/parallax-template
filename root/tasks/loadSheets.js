@@ -79,7 +79,7 @@ module.exports = function(grunt) {
           bookDone();
         });
       });
-    } done);
+    }, done);
 
   });
 
