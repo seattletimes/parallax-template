@@ -1,3 +1,7 @@
+/*
+Styles for the scrolling sections of the page.
+*/
+
 .parallax-play {
   overflow: hidden;
   position: relative;
@@ -5,7 +9,9 @@
   background-attachment: fixed;
   background-position: 50% 50%;
   background-size: cover;
-  padding: 0 0 100%;
+  padding: 0 0 75%;
+  max-width: 1600px;
+  margin: auto;
 
   .description {
     position: relative;
@@ -16,6 +22,7 @@
     font-family: @body;
     color: white;
     box-shadow: 8px 8px 16px rgba(0,0,0,.3);
+    border-radius: 4px;
 
     @media @mobile {
       margin: 40px 20px 0;
