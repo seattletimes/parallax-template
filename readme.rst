@@ -15,7 +15,7 @@ named it "parallax".
 Usage
 -----
 
-1. In Google Sheets, create a new workbook. Name it whatever you want, but then use the File->Publish to the Web menu item to make it publicly accessible.
+1. In Google Sheets, create a new workbook. Name it whatever you want, but then use the File->Publish to the Web menu item to make it publicly accessible. A demo sheet with the correct columns that you can duplicate is located `here <https://docs.google.com/spreadsheets/d/1eet9CwIu194AJQSc3FXDc7e4ZuE8S2s0PqO0XWcnE5E/edit?usp=sharing>`_.
 2. Create a new folder. It may be easiest to do this from the GitHub client, since that will let you immediately open the command line there.
 3. From the command line, run ``grunt-init parallax`` to start the guided setup.
 4. Some questions will provide defaults, but you'll need to know the spreadsheet ID to fully set up your template. The ID is in the URL, in the section marked by the X's: ``https://docs.google.com/spreadsheets/d/XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/edit``. You can paste into Git Bash by right-clicking on the window.
