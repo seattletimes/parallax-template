@@ -5,7 +5,7 @@ What is it?
 -----------
 
 This is a template for building full-screen photo sliders, similar to `our
-Super Bowl plays <projects.seattletimes.com/2015/seahawks-top-
+Super Bowl plays <https://projects.seattletimes.com/2015/seahawks-top-
 moments/superbowl/>`__. It's based on our `news app template
 <https://github.com/seattletimes/newsapp-template>`__, so see that project for
 documentation on installation and required software. The instructions below
